@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Mar 28 19:53:35 2023
 
 @author: ASUS
 """
@@ -12,7 +11,7 @@ import warnings
 warnings.filterwarnings("ignore")
 shap.initjs()
 import pandas as pd
-df = pd.read_excel('157.xlsx')
+df = pd.read_excel('mydata.xlsx')
 df.sort_values(by=['id', 'year'], ascending=[True, True], inplace=True, ignore_index=True)
 df_new = df[~df.year.isin([2002, 2003, 2004, 2005])].reset_index().rename(columns={'index': 'original_index'})
 for i in range(len(df_new)):

@@ -1,2 +1,6 @@
 # optimal_schistosomiasis_model
 Optimized strategy for schistosomiasis elimination: results from marginal benefit modeling
+The integrated control strategy is a proven and effective strategy for the national schistosomiasis control program in China. However, the optimization of the integrated control measures under the strategy is urgently performed in the resources-limited areas to improve the cost-effectiveness of the control program. The aim of this paper is to optimize integrated control measures to achieve the best cost-effectiveness in the implementation. We collected and analyzed the prevalence patterns along with the cost of control measures in 11 counties over last 20 years. Seven machine learning models, including XGBoost, support vector machine, generalized linear model, regression tree, random forest, gradient boosting machine, and neural network, were used for training. Among them, the XGBoost model had the highest prediction accuracy with an R2 of 0.7308. The marginal benefit modeling ley method was then used to calculate the marginal benefit of each measure in reducing the prevalence of the disease and to obtain the optimal integrated control strategy. 
+
+## Code 
+这个仓库包含了这篇论文的所有图表代码
